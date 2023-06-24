@@ -1,0 +1,36 @@
+###JIRA USER GUIDE###
+
+Welcome to our Jira guide. This guide will help you understand how we'll be using Jira for our Scrum processes.
+
+#############
+# THE BOARD #
+#############
+
+The primary page you will be using on Jira is the board. You can access it through this link:
+https://pg488.atlassian.net/jira/software/projects/IU2/boards/1
+
+Our board is divided into several columns, each representing a different status of a task:
+
+To-Do
+In Progress
+Ready for Testing
+In Testing
+Done
+Everything on the board is drag and drop. You can easily update the status of a user story or a task by dragging it to the appropriate column.
+
+##########################
+# USER STORIES AND TASKS #
+##########################
+
+Each user story will start with these boilerplate tasks:
+
+DESIGN: This is the first task of every story. This is where you will research and figure out how to complete the story. This may involve asking the product owner any clarifying questions. The primary output of this story are the additional tasks you need to complete the story.
+
+To create tasks, click on the title of the User Story in Jira. On the form that pops up, click "Add a child issue". Add the tasks and assign them to the proper person (likely yourself).
+WRITE TEST CASES: After you've figured out how to complete the story, write the test cases you'll need to confirm it's been done properly. We can write the test cases on the actual Jira ticket or use a tool like Zephyr (which is built into Jira) or Cucumber.io. We'll discuss which option we prefer as a team.
+
+EXECUTE TEST CASES (SELF): Run and pass the test cases yourself. When you're done, move the "Execute Test Cases (QA)" task to "Ready for Testing" so someone knows it's ready to pick up.
+
+EXECUTE TEST CASES (QA): These are test cases run by someone who didn't work on the task. If everyone did, we'll just pick a second person to run it. Once this is complete, the tester should move the "Product Owner approval" task to "Ready for Testing".
+
+PRODUCT OWNER APPROVAL: This is where Kayla, the product owner, approves the story.
